@@ -18,7 +18,7 @@ public class ValidateCSVData {
 
 
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\sarve\\Desktop\\Week 5 pr\\Day-1\\src\\main\\java\\com\\advancedproblems\\validateCSV\\contact.csv";
+        String filePath = "C:\\Users\\purva\\Desktop\\Week 5 \\Day1\\Day1\\src\\main\\java\\com\\advancedproblems\\validateCSV\\contact.csv";
 
 
         List<String[]> employeeList = new ArrayList<>();
