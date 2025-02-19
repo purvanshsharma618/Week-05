@@ -13,9 +13,9 @@ import java.util.*;
 
 public class MergeTwoCSV {
     public static void main(String[] args) {
-        String file1 = "C:\\Users\\purva\\Desktop\\Week 05 \\Day1\\Day1\\src\\main\\java\\com\\advancedproblems\\mergetwoCSV\\student1.csv";
-        String file2 = "C:\\Users\\purva\\Desktop\\Week 05 \\Day1\\Day1\\src\\main\\java\\com\\advancedproblems\\mergetwoCSV\\student2.csv";
-        String outputFile = "C:\\Users\\purva\\Desktop\\Week 05 \\Day1\\Day1\\src\\main\\java\\com\\advancedproblems\\mergetwoCSV\\merged_students.csv";
+        String file1 = "C:\\Users\\purva\\Desktop\\Week 05\\Day1\\Day1\\src\\main\\java\\com\\advancedproblems\\mergetwoCSV\\student1.csv";
+        String file2 = "C:\\Users\\purva\\Desktop\\Week 05\\Day1\\Day1\\src\\main\\java\\com\\advancedproblems\\mergetwoCSV\\student2.csv";
+        String outputFile = "C:\\Users\\purva\\Desktop\\Week 05\\Day1\\Day1\\src\\main\\java\\com\\advancedproblems\\mergetwoCSV\\merged_students.csv";
 
 
         // Maps to store data based on ID
