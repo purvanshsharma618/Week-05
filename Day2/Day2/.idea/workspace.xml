@@ -24,6 +24,7 @@
   "keyToString": {
     "Application.CarToJson.executor": "Run",
     "Application.CreateJSONObject.executor": "Run",
+    "Application.FilterJsonRecords.executor": "Run",
     "Application.MergeJsonObjects.executor": "Run",
     "Application.ObjectToJsonArray.executor": "Run",
     "Application.ReadJson.executor": "Run",
