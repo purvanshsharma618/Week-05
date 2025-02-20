@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b3c8b7-0596-4e8f-81ef-1fe67d42689a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsonschemavalidator/JsonSchemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsonschemavalidator/JsonSchemaValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mergejsonfiles/MergeJsonFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mergejsonfiles/MergeJsonFiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,7 @@
     "Application.FilterJsonRecords.executor": "Run",
     "Application.JsonSchemaValidator.executor": "Run",
     "Application.ListOfObjectsToJsonArray.executor": "Run",
+    "Application.MergeJsonFiles.executor": "Run",
     "Application.MergeJsonObjects.executor": "Run",
     "Application.ObjectToJsonArray.executor": "Run",
     "Application.PrintJsonKeysValues.executor": "Run",

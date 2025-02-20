@@ -13,8 +13,8 @@ public class MergeJsonFiles {
 
         try {
             // Read both JSON files into JsonNode
-            JsonNode json1 = objectMapper.readTree(new File("file1.json"));
-            JsonNode json2 = objectMapper.readTree(new File("file2.json"));
+            JsonNode json1 = objectMapper.readTree(new File("C:\\Users\\purva\\OneDrive\\Desktop\\Week 05\\Day2\\Day2\\src\\main\\java\\com\\mergejsonfiles\\file1.json"));
+            JsonNode json2 = objectMapper.readTree(new File("C:\\Users\\purva\\OneDrive\\Desktop\\Week 05\\Day2\\Day2\\src\\main\\java\\com\\mergejsonfiles\\file2.json"));
 
             // Merge JSON objects
             ObjectNode mergedJson = objectMapper.createObjectNode();
