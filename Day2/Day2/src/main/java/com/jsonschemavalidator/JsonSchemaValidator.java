@@ -15,20 +15,20 @@ public class JsonSchemaValidator {
 
         try {
             // Load JSON Schema
-            FileInputStream schemaStream = new FileInputStream("schema.json");
+            FileInputStream schemaStream = new FileInputStream("C:\\Users\\purva\\OneDrive\\Desktop\\Week 05\\Day2\\Day2\\src\\main\\java\\com\\jsonschemavalidator\\data.json");
             JSONObject jsonSchema = new JSONObject(new JSONTokener(schemaStream));
             Schema schema = SchemaLoader.load(jsonSchema);
 
             // Load JSON Data
-            FileInputStream dataStream = new FileInputStream("data.json");
+            FileInputStream dataStream = new FileInputStream("C:\\Users\\purva\\OneDrive\\Desktop\\Week 05\\Day2\\Day2\\src\\main\\java\\com\\jsonschemavalidator\\data.json");
             JSONObject jsonData = new JSONObject(new JSONTokener(dataStream));
 
             // Validate JSON
             schema.validate(jsonData);
-            System.out.println("✅ JSON is valid!");
+            System.out.println("JSON is valid!");
 
         } catch (org.everit.json.schema.ValidationException e) {
-            System.out.println("❌ JSON Validation Error: " + e.getMessage());
+            System.out.println("JSON Validation Error: " + e.getMessage());
         } catch (IOException e) {
             e.printStackTrace();
         }
