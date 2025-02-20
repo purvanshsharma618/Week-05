@@ -27,6 +27,7 @@
     "Application.FilterJsonRecords.executor": "Run",
     "Application.MergeJsonObjects.executor": "Run",
     "Application.ObjectToJsonArray.executor": "Run",
+    "Application.PrintJsonKeysValues.executor": "Run",
     "Application.ReadJson.executor": "Run",
     "Application.ValidateJson.executor": "Run",
     "git-widget-placeholder": "DAY__02"
